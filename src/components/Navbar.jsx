@@ -16,10 +16,10 @@ const Navbar = () => {
             onClick={() => setIsOpen(false)}
           >
             <span className="font-serif text-3xl font-normal tracking-tight text-brand-dark leading-none">
-              Conejo Valley
+              Dr. Maya Reynolds
             </span>
             <span className="text-[0.65rem] tracking-[0.25em] text-brand-teal mt-1 font-semibold uppercase">
-              Family Counseling
+              PsyD · Clinical Psychologist
             </span>
           </Link>
         </div>

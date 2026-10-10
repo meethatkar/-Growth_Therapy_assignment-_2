@@ -2,13 +2,14 @@ export const footerLinks = {
   navigate: [
     { name: "Home", href: "/" },
     { name: "About", href: "#about" },
+    { name: "Specialties", href: "#specialties" },
     { name: "FAQs", href: "#faqs" },
     { name: "Contact", href: "#contact" }
   ],
   contact: {
-    address: ["925 Broadbeck Dr", "Suites 200 and 225", "Newbury Park, CA 91320"],
-    email: "info@conejovalleycounseling.com",
-    phone: "805.242.3120",
-    serving: "Serving Thousand Oaks, Westlake Village, Camarillo, Moorpark, & Simi Valley"
+    address: ["123 Street 45 W", "Santa Monica, CA 90401"],
+    email: "hello@drmayareynolds.com",
+    phone: "310.555.0192",
+    serving: "Serving Santa Monica, West Los Angeles, Brentwood, Pacific Palisades & across CA via telehealth"
   }
 };

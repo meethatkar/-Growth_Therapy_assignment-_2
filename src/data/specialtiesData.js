@@ -1,18 +1,18 @@
 export const specialtiesData = [
   {
-    title: "Trauma",
-    desc: "We don't always know when and how we've experienced trauma. In therapy, we'll work together to help you process your past, understand what's causing you to stay \"stuck,\" and regain a sense of safety, control, and hope. You don't have to carry your burdens alone.",
+    title: "Anxiety & Panic",
+    desc: "Anxiety can feel like a constant hum beneath everything—a tightness in the chest, a mind that won't quiet, a body always bracing. In therapy, we'll work to understand the emotional and physiological patterns driving your anxiety, using CBT, mindfulness, and somatic techniques to help you feel genuinely at ease.",
   },
   {
-    title: "EMDR",
-    desc: "Eye Movement Desensitization and Reprocessing (EMDR) is a powerful therapeutic technique that helps process and heal trauma by reworking how painful memories are stored in your brain. This allows you to find relief and move toward lasting healing.",
+    title: "EMDR Therapy",
+    desc: "Eye Movement Desensitization and Reprocessing (EMDR) is a research-supported method for healing trauma at a deeper level. By gently processing the memories and experiences stored in your nervous system, EMDR can help you find lasting relief—not just symptom management.",
   },
   {
-    title: "Dissociation",
-    desc: "The feeling of losing time, hearing conflicting voices, or questioning your sense of self can be overwhelming. In therapy, we'll help you understand these experiences, recognize your own triggers, and create a sense of balance and identity so that you can feel more grounded.",
+    title: "Burnout & Perfectionism",
+    desc: "Many high-achieving professionals feel disconnected from themselves after years of relentless pressure. Therapy can help you identify what's driving the exhaustion, set sustainable limits, and reconnect with what matters—so you can work and live with more intention and ease.",
   },
   {
-    title: "Special Needs Parenting",
-    desc: "Parenting a child with special needs presents unique challenges and complex emotions. We provide compassionate support through lived experience and expertise to help you navigate this journey with tools, understanding, and self-care.",
+    title: "Complex Trauma",
+    desc: "Long-standing patterns rooted in childhood, relationships, or chronic stress can quietly shape how you see yourself and the world. We work at a careful pace—prioritizing safety and stabilization—to help you understand these patterns and build a stronger, more grounded sense of self.",
   }
 ];

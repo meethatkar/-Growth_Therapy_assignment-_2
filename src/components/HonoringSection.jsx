@@ -7,8 +7,8 @@ const HonoringSection = () => {
         {/* Left Image */}
         <div className="w-full md:w-[55%] aspect-[4/3] md:aspect-[1.3] relative">
           <Image
-            src="/images/family_ocean.png"
-            alt="Family walking into ocean"
+            src="/images/office2.jpeg"
+            alt="Dr. Maya Reynolds therapy office interior — a calm, grounded space in Santa Monica"
             fill
             className="object-cover object-center"
           />

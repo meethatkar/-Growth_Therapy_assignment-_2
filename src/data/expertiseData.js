@@ -1,17 +1,17 @@
 export const leftExpertise = [
-  "DISSOCIATION",
-  "TRAUMA",
-  "FAMILY CONFLICT",
-  "SPECIAL NEEDS PARENTING",
+  "ANXIETY & PANIC",
+  "TRAUMA & PTSD",
+  "BURNOUT",
+  "PERFECTIONISM",
   "DEPRESSION",
-  "MARRIAGE"
+  "LIFE TRANSITIONS",
 ];
 
 export const rightExpertise = [
-  "ANXIETY",
+  "EMDR THERAPY",
+  "COMPLEX TRAUMA",
+  "SELF-ESTEEM",
   "RELATIONSHIPS",
-  "CHILDREN",
-  "TEENS",
-  "INTIMACY & CONNECTION",
-  "...AND MORE."
+  "MINDFULNESS",
+  "...AND MORE.",
 ];

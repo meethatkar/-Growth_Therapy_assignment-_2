@@ -1,17 +1,17 @@
 export const helpData = [
   {
-    title: "Adults",
-    desc: "Feeling stuck or overwhelmed? We help adults find clarity, build resilience, and move forward with confidence by addressing the root causes of anxiety, stress, and emotional pain.",
+    title: "Anxiety & Panic",
+    desc: "If you're living with constant worry, tension, or a sense that something is always about to go wrong, therapy can help you understand the roots of your anxiety and build lasting tools to feel grounded and at ease.",
     image: "/images/help_adults.png"
   },
   {
-    title: "Couples",
-    desc: "Relationships require effort, and we're here to help you strengthen yours. We guide couples through challenges like communication breakdowns and trust issues, helping you rebuild intimacy and strengthen your relationship.",
+    title: "Trauma & PTSD",
+    desc: "Whether you've experienced a single difficult event or a longer pattern of hardship, trauma therapy can help you process what happened, feel safer in your body, and move toward a life that feels fully your own again.",
     image: "/images/help_couples.png"
   },
   {
-    title: "Children & Teens",
-    desc: "Kids need support, too. We help them process big emotions, cope with challenging family situations, build coping skills, and feel understood, while also working closely with their parents to create a nurturing environment.",
+    title: "Burnout & Perfectionism",
+    desc: "High achievers often push through stress until they hit a wall. Therapy offers a space to slow down, reconnect with yourself, and build more sustainable ways of working and living—without losing your drive.",
     image: "/images/help_kids.png"
   }
 ];
