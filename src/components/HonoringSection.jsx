@@ -2,25 +2,26 @@ import Image from "next/image";
 
 const HonoringSection = () => {
   return (
-    <section className="w-full bg-brand-white flex justify-center px-8 md:px-0">
-      <div className="max-w-[1900px] w-full py-24 md:py-0 flex flex-col md:flex-row items-center md:items-stretch gap-16 md:gap-24 md:min-h-screen mx-auto">
+    <section className="w-full bg-brand-white flex justify-center py-16 md:py-32 lg:py-40">
+      <div className="max-w-[1900px] w-full flex flex-col md:flex-row items-center md:items-end mx-auto">
         {/* Left Image */}
-        <div className="w-full md:w-1/2 aspect-[4/3] md:aspect-auto h-[50vh] md:h-auto relative flex-grow">
+        <div className="w-full md:w-[55%] aspect-[4/3] md:aspect-[1.3] relative">
           <Image
             src="/images/family_ocean.png"
             alt="Family walking into ocean"
             fill
-            className="object-cover"
+            className="object-cover object-center"
           />
         </div>
 
         {/* Right Content */}
-        <div className="w-full md:w-1/2 md:pr-24 lg:pr-32 flex flex-col justify-center py-12 md:py-0">
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-[3.5rem] text-brand-dark font-normal leading-snug max-w-lg">
-            Honoring where you've been{" "}
-            <span className="font-script text-5xl md:text-[4.5rem] text-brand-teal inline-block transform translate-y-2">
+        <div className="w-full md:w-[45%] pb-0 md:pb-4 px-8 md:px-12 lg:px-20 xl:px-24 mt-12 md:mt-0">
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-[3rem] text-brand-dark font-normal leading-[1.3] max-w-xl">
+            Honoring where you've been
+            <br className="hidden md:block" />
+            <span className="font-script text-5xl md:text-[5rem] lg:text-[3rem] text-brand-teal font-light inline-block transform translate-y-3 lg:translate-y-1 mr-3">
               &amp;
-            </span>{" "}
+            </span>
             helping shape where you're headed.
           </h2>
         </div>
