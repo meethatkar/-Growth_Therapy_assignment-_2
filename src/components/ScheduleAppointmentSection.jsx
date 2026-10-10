@@ -21,7 +21,7 @@ const ScheduleAppointmentSection = () => {
           </h4>
 
           <h2 className="font-serif text-4xl md:text-5xl lg:text-[4rem] text-brand-dark font-normal leading-[1.1] mb-12 max-w-2xl">
-            Find the clarity and calm you've been
+            Find the clarity and calm you&apos;ve been
             <br className="hidden md:block" />
             looking for{" "}
             <span className="font-script text-[4rem] md:text-[5.5rem] lg:text-[6.5rem] text-brand-teal inline-block transform translate-y-3 md:translate-y-6">
@@ -40,8 +40,9 @@ const ScheduleAppointmentSection = () => {
             </p>
             <p>
               I work with adults navigating anxiety, trauma, and burnout. If
-              you're ready to understand what's driving the distress and build a
-              more sustainable path forward, I'd love to connect.
+              you&apos;re ready to understand what&apos;s driving the distress
+              and build a more sustainable path forward, I&apos;d love to
+              connect.
             </p>
           </div>
 

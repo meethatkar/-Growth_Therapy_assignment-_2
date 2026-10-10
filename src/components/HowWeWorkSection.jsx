@@ -28,8 +28,8 @@ const HowWeWorkSection = () => {
                   cognitive-behavioral therapy (CBT), EMDR, mindfulness-based
                   practices, and body-oriented techniques. This allows us to
                   address both the emotional and physiological dimensions of
-                  what you're experiencing—not just talk about it, but genuinely
-                  shift it.
+                  what you&apos;re experiencing—not just talk about it, but
+                  genuinely shift it.
                 </p>
               </div>
               <div>
@@ -38,8 +38,8 @@ const HowWeWorkSection = () => {
                   understood, and actively involved in the process. My goal is
                   not just symptom relief, but helping you develop real insight,
                   resilience, and a stronger relationship with yourself over
-                  time. If you're ready to do the work, I'm here to walk
-                  alongside you— at whatever pace feels right.
+                  time. If you&apos;re ready to do the work, I&apos;m here to
+                  walk alongside you— at whatever pace feels right.
                 </p>
               </div>
             </div>

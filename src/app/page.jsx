@@ -7,6 +7,7 @@ import ExpertiseSection from "../components/ExpertiseSection";
 import HowWeWorkSection from "../components/HowWeWorkSection";
 import HonoringSection from "../components/HonoringSection";
 import SpecialtiesIncludeSection from "../components/SpecialtiesIncludeSection";
+import OurOfficeSection from "../components/OurOfficeSection";
 import ScheduleAppointmentSection from "../components/ScheduleAppointmentSection";
 import Footer from "../components/Footer";
 
@@ -22,6 +23,7 @@ export default function Home() {
       <HowWeWorkSection />
       <HonoringSection />
       <SpecialtiesIncludeSection />
+      <OurOfficeSection />
       <ScheduleAppointmentSection />
       <Footer />
     </main>

@@ -8,29 +8,34 @@ const HopeSection = () => {
         <div className="w-full md:w-[70%] flex flex-col justify-center pr-8 md:pr-16 lg:pr-20 py-16 md:py-24">
           <div className="max-w-4xl">
             <h2 className="font-serif text-4xl md:text-5xl lg:text-[4rem] text-brand-dark font-normal leading-[1.15] mb-16">
-              You're high-functioning on the outside—but
-              exhausted, tightly wound, and quietly struggling on the inside.
+              You&apos;re high-functioning on the outside—but exhausted, tightly
+              wound, and quietly struggling on the inside.
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-sm md:text-[1.3rem] leading-relaxed text-brand-gray font-light">
               <div>
                 <p className="text-base font-medium tracking-widest uppercase mb-4 text-brand-dark leading-relaxed">
-                  At Dr. Maya Reynolds' Santa Monica practice, you don't have to keep pushing through alone.
+                  At Dr. Maya Reynolds&apos; Santa Monica practice, you
+                  don&apos;t have to keep pushing through alone.
                 </p>
                 <p>
-                  Many of the people I work with are thoughtful, self-aware, and accomplished—yet
-                  internally feel stuck in overthinking, emotionally on edge, or exhausted by the relentless
-                  pressure to perform. Therapy offers a space to finally slow down, understand what's driving
-                  the distress, and build something more sustainable.
+                  Many of the people I work with are thoughtful, self-aware, and
+                  accomplished—yet internally feel stuck in overthinking,
+                  emotionally on edge, or exhausted by the relentless pressure
+                  to perform. Therapy offers a space to finally slow down,
+                  understand what&apos;s driving the distress, and build
+                  something more sustainable.
                 </p>
               </div>
               <div>
                 <p>
-                  Whether you're navigating anxiety that won't quiet, the lingering weight of past experiences,
-                  or burnout that has crept into every corner of your life—your experience is real, valid, and
-                  worth addressing. My approach is warm, grounded, and evidence-based, drawing on CBT, EMDR,
-                  mindfulness, and body-oriented techniques to help you heal at every level—not just manage
-                  symptoms.
+                  Whether you&apos;re navigating anxiety that won&apos;t quiet,
+                  the lingering weight of past experiences, or burnout that has
+                  crept into every corner of your life—your experience is real,
+                  valid, and worth addressing. My approach is warm, grounded,
+                  and evidence-based, drawing on CBT, EMDR, mindfulness, and
+                  body-oriented techniques to help you heal at every level—not
+                  just manage symptoms.
                 </p>
               </div>
             </div>
