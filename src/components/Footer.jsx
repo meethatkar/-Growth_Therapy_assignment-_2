@@ -16,7 +16,7 @@ const Footer = () => {
               Family Counseling
             </span>
           </Link>
-          <p className="text-[0.85rem] font-light leading-relaxed text-brand-gray max-w-sm">
+          <p className="text-[1rem] leading-relaxed text-brand-gray max-w-md">
             We want to make getting started simple. You're welcome to come into
             our office in Newbury Park or schedule virtual appointments from
             anywhere in CA — whatever works best for you.
@@ -25,7 +25,7 @@ const Footer = () => {
 
         {/* Navigate (Col span 2) */}
         <div className="col-span-1 md:col-span-2 flex flex-col">
-          <h4 className="text-[0.65rem] font-semibold tracking-[0.25em] text-brand-dark uppercase mb-8">
+          <h4 className="text-[1.1rem] font-semibold tracking-[0.25em] text-brand-dark uppercase mb-8">
             Navigate
           </h4>
           <ul className="flex flex-col space-y-3 text-[0.85rem] font-light text-brand-gray">
@@ -44,7 +44,7 @@ const Footer = () => {
 
         {/* Our Team (Col span 2) */}
         <div className="col-span-1 md:col-span-2 flex flex-col">
-          <h4 className="text-[0.65rem] font-semibold tracking-[0.25em] text-brand-dark uppercase mb-8">
+          <h4 className="text-[1.1rem] font-semibold tracking-[0.25em] text-brand-dark uppercase mb-8">
             Our Team
           </h4>
           <ul className="flex flex-col space-y-3 text-[0.85rem] font-light text-brand-gray">
@@ -63,7 +63,7 @@ const Footer = () => {
 
         {/* Contact (Col span 3) */}
         <div className="col-span-1 md:col-span-3 flex flex-col">
-          <h4 className="text-[0.65rem] font-semibold tracking-[0.25em] text-brand-dark uppercase mb-8">
+          <h4 className="text-[1.1rem] font-semibold tracking-[0.25em] text-brand-dark uppercase mb-8">
             Contact
           </h4>
           <div className="flex flex-col space-y-6 text-[0.85rem] font-light text-brand-gray">
