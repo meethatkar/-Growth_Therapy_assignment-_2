@@ -2,32 +2,36 @@ import Image from "next/image";
 
 const ScheduleAppointmentSection = () => {
   return (
-    <section className=" max-w-[1900px] w-full mx-auto bg-brand-bg relative flex justify-center items-center overflow-hidden min-h-screen">
-      {/* Left decorative background slice */}
-      <div className="hidden lg:block absolute left-0 top-0 bottom-0 w-[14%] xl:w-[16%] z-0">
-        <Image
-          src="/images/sand_shells.png"
-          alt="Decorative sand background"
-          fill
-          className="object-cover object-right opacity-80"
-        />
-      </div>
+    <section className="w-full bg-[#FAF9F7] flex justify-center overflow-hidden">
+      <div className="max-w-[1900px] w-full flex flex-col lg:flex-row items-center justify-between mx-auto py-16 md:py-24 lg:py-32">
+        
+        {/* Left Image */}
+        <div className="hidden lg:block w-[12%] xl:w-[14%] h-[40vh] lg:h-[45vh] relative self-end">
+          <Image
+            src="/images/sand_shells.png"
+            alt="Decorative sand background"
+            fill
+            className="object-cover object-left"
+          />
+        </div>
 
-      <div className="w-12/12 flex flex-col md:flex-row items-stretch min-h-screen mx-auto relative z-10">
-        {/* Left Content */}
-        <div className="w-full md:w-1/2 flex flex-col justify-center px-8 md:px-16 lg:pl-32 lg:pr-16 py-16 md:py-24">
-          <h4 className="text-xs font-semibold tracking-[0.25em] text-brand-dark uppercase mb-6">
+        {/* Text Content */}
+        <div className="w-full lg:w-[46%] flex flex-col justify-center px-8 md:px-16 lg:px-0 lg:pl-10 xl:pl-16 py-12 lg:py-0">
+          <h4 className="text-[0.65rem] font-semibold tracking-[0.25em] text-brand-dark uppercase mb-16">
             Schedule an appointment
           </h4>
 
-          <h2 className="font-serif text-4xl md:text-5xl lg:text-[3.5rem] text-brand-dark font-normal leading-[1.15] mb-8 max-w-xl">
-            Find a therapist who is the right fit for{" "}
-            <span className="font-script text-5xl md:text-[4.5rem] text-brand-teal ml-1">
-              you.
+          <h2 className="font-serif text-4xl md:text-5xl lg:text-[4rem] text-brand-dark font-normal leading-[1.1] mb-12 max-w-2xl">
+            Find a therapist who is the
+            <br className="hidden md:block" />
+            right fit for{" "}
+            <span className="font-script text-[4rem] md:text-[5.5rem] lg:text-[6.5rem] text-brand-teal inline-block transform translate-y-3 md:translate-y-6">
+              you
             </span>
+            <span className="font-serif text-4xl md:text-5xl lg:text-[4rem] text-brand-dark">.</span>
           </h2>
 
-          <div className="text-sm md:text-[0.9rem] font-light leading-relaxed text-brand-gray space-y-4 max-w-lg mb-10">
+          <div className="text-[0.95rem] md:text-[1.05rem] font-light leading-[1.8] text-brand-dark space-y-6 max-w-xl mb-12 lg:pr-8">
             <p>
               Coming to therapy is a courageous decision, and connecting with
               the right kind of therapist makes all the difference. We
@@ -43,7 +47,7 @@ const ScheduleAppointmentSection = () => {
           <div>
             <a
               href="#book"
-              className="inline-block px-10 py-3.5 border border-brand-dark rounded-full text-xs font-medium tracking-[0.2em] text-brand-dark hover:bg-brand-dark hover:text-white transition-all duration-300 uppercase"
+              className="inline-block px-10 py-3.5 border border-brand-dark rounded-full text-[0.65rem] font-semibold tracking-[0.2em] text-brand-dark hover:bg-brand-dark hover:text-white transition-all duration-300 uppercase"
             >
               Book now
             </a>
@@ -51,7 +55,7 @@ const ScheduleAppointmentSection = () => {
         </div>
 
         {/* Right Image */}
-        <div className="w-full md:w-1/2 min-h-[50vh] md:min-h-screen relative">
+        <div className="w-full lg:w-[36%] xl:w-[38%] h-[50vh] lg:h-[75vh] relative mt-12 lg:mt-0">
           <Image
             src="/images/sand_shells.png"
             alt="Pointing at shells in sand"
@@ -59,6 +63,7 @@ const ScheduleAppointmentSection = () => {
             className="object-cover object-center"
           />
         </div>
+        
       </div>
     </section>
   );
