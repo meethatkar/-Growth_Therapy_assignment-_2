@@ -12,7 +12,7 @@ const WhoWeHelpSection = () => {
           </span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 md:w-11/12 ml-auto">
           {helpData.map((item, index) => (
             <div key={index} className="flex flex-col">
               <div className="w-full aspect-square relative mb-8">
