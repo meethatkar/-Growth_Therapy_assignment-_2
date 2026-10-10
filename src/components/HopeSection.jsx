@@ -2,19 +2,19 @@ import Image from "next/image";
 
 const HopeSection = () => {
   return (
-    <section className="w-full bg-brand-bg flex justify-center">
-      <div className="max-w-[1900px] w-full py-24 flex flex-col md:flex-row items-stretch md:min-h-screen mx-auto">
+    <section className="w-full bg-brand-bg flex justify-center overflow-hidden">
+      <div className="max-w-[1900px] w-full pl-8 md:pl-16 lg:pl-24 pr-0 flex flex-col md:flex-row items-center md:min-h-screen mx-auto">
         {/* Left Text Content */}
-        <div className="w-full md:w-1/2 flex justify-center items-center px-8 md:px-16 lg:px-24 py-12 md:py-0">
-          <div className="max-w-xl py-12">
-            <h2 className="font-serif text-4xl md:text-5xl text-brand-dark font-normal leading-tight mb-12">
+        <div className="w-full md:w-[70%] flex flex-col justify-center pr-8 md:pr-16 lg:pr-20 py-16 md:py-24">
+          <div className="max-w-4xl">
+            <h2 className="font-serif text-4xl md:text-5xl lg:text-[4rem] text-brand-dark font-normal leading-[1.15] mb-16">
               You're holding onto hope that life can be better than it is right
               now.
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm md:text-[0.9rem] leading-relaxed text-brand-gray font-light">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-sm md:text-[1.3rem] leading-relaxed text-brand-gray font-light">
               <div>
-                <p className="text-xs font-semibold tracking-widest uppercase mb-4 text-brand-dark leading-relaxed">
+                <p className="text-base font-medium tracking-widest uppercase mb-4 text-brand-dark leading-relaxed">
                   At Conejo Valley Family Counseling we want to make that hope a
                   reality.
                 </p>
@@ -42,12 +42,12 @@ const HopeSection = () => {
         </div>
 
         {/* Right Image Content */}
-        <div className="w-full md:w-1/2 min-h-[50vh] md:min-h-[70vh] relative">
+        <div className="w-full md:w-[30%] h-[50vh] md:h-[78vh] relative my-auto">
           <Image
             src="/images/ocean_hope.png"
             alt="Ocean waves on beach"
             fill
-            className="object-cover"
+            className="object-cover object-center"
           />
         </div>
       </div>
