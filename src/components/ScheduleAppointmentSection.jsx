@@ -48,7 +48,7 @@ const ScheduleAppointmentSection = () => {
           <div>
             <a
               href="#contact"
-              className="inline-block px-10 py-3.5 border border-brand-dark rounded-[400px] text-[0.65rem] font-semibold tracking-[0.2em] text-brand-dark hover:bg-brand-dark hover:text-white transition-all duration-300 uppercase"
+              className="inline-block w-auto px-10 py-3.5 border border-brand-dark rounded-[100%] text-[0.65rem] font-semibold tracking-[0.2em] text-brand-dark hover:bg-brand-dark hover:text-white transition-all duration-300 uppercase"
             >
               Request a consultation
             </a>

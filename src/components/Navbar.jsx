@@ -121,7 +121,7 @@ const Navbar = () => {
         <div className="w-full flex justify-center">
           <Link
             href="#contact"
-            className="w-full max-w-[200px] text-center px-6 py-3 border border-brand-dark rounded-[50px] text-brand-dark text-sm tracking-widest uppercase"
+            className="w-full max-w-[200px] text-center px-6 py-3 border border-brand-dark rounded-[100%] text-brand-dark text-sm tracking-widest uppercase"
             onClick={() => setIsOpen(false)}
           >
             Contact

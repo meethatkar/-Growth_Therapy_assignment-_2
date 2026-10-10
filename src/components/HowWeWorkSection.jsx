@@ -20,14 +20,16 @@ const HowWeWorkSection = () => {
               <div className="pr-0 md:pr-4">
                 <p className="font-medium uppercase tracking-[0.1em] mb-8 text-[0.8rem] leading-[1.6]">
                   I take a warm, collaborative, and grounded approach—
-                  structured enough to feel supportive, while still leaving space for reflection and depth.
+                  structured enough to feel supportive, while still leaving
+                  space for reflection and depth.
                 </p>
                 <p>
                   My work integrates evidence-based methods including
                   cognitive-behavioral therapy (CBT), EMDR, mindfulness-based
                   practices, and body-oriented techniques. This allows us to
                   address both the emotional and physiological dimensions of
-                  what you're experiencing—not just talk about it, but genuinely shift it.
+                  what you're experiencing—not just talk about it, but genuinely
+                  shift it.
                 </p>
               </div>
               <div>
@@ -35,9 +37,9 @@ const HowWeWorkSection = () => {
                   I believe therapy works best when you feel respected,
                   understood, and actively involved in the process. My goal is
                   not just symptom relief, but helping you develop real insight,
-                  resilience, and a stronger relationship with yourself over time.
-                  If you're ready to do the work, I'm here to walk alongside you—
-                  at whatever pace feels right.
+                  resilience, and a stronger relationship with yourself over
+                  time. If you're ready to do the work, I'm here to walk
+                  alongside you— at whatever pace feels right.
                 </p>
               </div>
             </div>
