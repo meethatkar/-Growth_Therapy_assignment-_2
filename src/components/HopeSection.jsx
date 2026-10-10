@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ScrollRevealText from "./ScrollRevealText";
 
 const HopeSection = () => {
   return (
@@ -7,10 +8,10 @@ const HopeSection = () => {
         {/* Left Text Content */}
         <div className="w-full md:w-[70%] flex flex-col justify-center pr-8 md:pr-16 lg:pr-20 py-16 md:py-24">
           <div className="max-w-4xl">
-            <h2 className="font-serif text-4xl md:text-5xl lg:text-[4rem] text-brand-dark font-normal leading-[1.15] mb-16">
-              You&apos;re high-functioning on the outside—but exhausted, tightly
-              wound, and quietly struggling on the inside.
-            </h2>
+            <ScrollRevealText
+              text="You're high-functioning on the outside—but exhausted, tightly wound, and quietly struggling on the inside."
+              className="font-serif text-4xl md:text-5xl lg:text-[4rem] text-brand-dark font-normal leading-[1.15] mb-16"
+            />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-sm md:text-[1.3rem] leading-relaxed text-brand-gray font-light">
               <div>
