@@ -2,7 +2,7 @@ import { leftExpertise, rightExpertise } from "../data/expertiseData";
 
 const ExpertiseSection = () => {
   const ListItem = ({ text }) => (
-    <li className="py-6 border-b border-brand-border/60 text-xs font-semibold tracking-[0.2em] text-brand-dark uppercase w-full">
+    <li className="py-8 border-b border-brand-border/60 text-md tracking-[0.2em] text-brand-dark uppercase w-full">
       {text}
     </li>
   );
