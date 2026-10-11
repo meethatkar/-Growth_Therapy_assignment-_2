@@ -16,10 +16,10 @@ const Navbar = () => {
             onClick={() => setIsOpen(false)}
           >
             <span className="font-serif text-3xl font-normal tracking-tight text-brand-dark leading-none">
-              Conejo Valley
+              Dr. Maya Reynolds
             </span>
             <span className="text-[0.65rem] tracking-[0.25em] text-brand-teal mt-1 font-semibold uppercase">
-              Family Counseling
+              PsyD · Clinical Psychologist
             </span>
           </Link>
         </div>
@@ -121,7 +121,7 @@ const Navbar = () => {
         <div className="w-full flex justify-center">
           <Link
             href="#contact"
-            className="w-full max-w-[200px] text-center px-6 py-3 border border-brand-dark rounded-[50px] text-brand-dark text-sm tracking-widest uppercase"
+            className="w-full max-w-[200px] text-center px-6 py-3 border border-brand-dark rounded-[100%] text-brand-dark text-sm tracking-widest uppercase"
             onClick={() => setIsOpen(false)}
           >
             Contact

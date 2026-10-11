@@ -6,9 +6,9 @@ const WhoWeHelpSection = () => {
     <section className="w-full bg-brand-white py-24 px-8 md:px-16 lg:px-24 md:min-h-screen flex items-center">
       <div className="w-full max-w-[1900px] mx-auto py-12 md:py-0">
         <h2 className="font-serif text-4xl md:text-5xl text-brand-dark font-normal mb-16 flex items-center">
-          Who we{" "}
-          <span className="font-script text-6xl md:text-[5.5rem] text-brand-teal ml-2 -mt-4">
-            help
+          Who I{" "}
+          <span className="font-script text-6xl md:text-[5.5rem] text-brand-teal ml-[1%]">
+            work with
           </span>
         </h2>
 

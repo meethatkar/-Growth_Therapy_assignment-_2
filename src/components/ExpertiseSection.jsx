@@ -13,7 +13,7 @@ const ExpertiseSection = () => {
         {/* Heading */}
         <div className="w-full md:w-1/3 pt-4">
           <h2 className="font-serif text-4xl md:text-5xl text-brand-dark font-normal flex flex-col items-start leading-tight">
-            <span>Our areas of</span>
+            <span>My areas of</span>
             <span className="font-script text-6xl md:text-[5.5rem] text-brand-teal mt-[-10px]">
               expertise
             </span>

@@ -7,8 +7,8 @@ const SpecialtiesIncludeSection = () => {
         {/* Left Heading */}
         <div className="w-full md:w-[35%] lg:w-[30%]">
           <h2 className="font-serif text-[2.8rem] md:text-5xl lg:text-[3.5rem] text-brand-dark font-normal leading-[1.1]">
-            Our{" "}
-            <span className="font-script text-[4rem] md:text-[5.5rem] lg:text-[6.5rem] text-brand-teal inline-block transform translate-y-3 md:translate-y-5 -ml-2">
+            My{" "}
+            <span className="font-script text-[4rem] md:text-[5.5rem] lg:text-[6.5rem] text-brand-teal inline-block transform translate-y-3 md:translate-y-[3.5%]">
               specialties
             </span>
             <br />
