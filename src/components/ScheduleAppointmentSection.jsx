@@ -24,7 +24,7 @@ const ScheduleAppointmentSection = () => {
             Find the clarity and calm you&apos;ve been
             <br className="hidden md:block" />
             looking for{" "}
-            <span className="font-script text-[4rem] md:text-[5.5rem] lg:text-[6.5rem] text-brand-teal inline-block transform translate-y-3 md:translate-y-6">
+            <span className="font-script text-[4rem] md:text-[5.5rem] lg:text-[6.5rem] text-brand-teal inline-block transform translate-y-[1%] md:translate-y-[3%]">
               here
             </span>
           </h2>
@@ -59,7 +59,7 @@ const ScheduleAppointmentSection = () => {
         {/* Right Image */}
         <div className="w-full lg:w-[36%] xl:w-[38%] h-[50vh] lg:h-[75vh] relative mt-12 lg:mt-0">
           <Image
-            src="/images/Dr. Maya Reynolds.png"
+            src="/images/schedule_consultation.png"
             alt="Dr. Maya Reynolds, PsyD — anxiety and trauma therapist in Santa Monica, CA"
             fill
             className="object-cover object-center"

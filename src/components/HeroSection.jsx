@@ -27,7 +27,7 @@ const HeroSection = () => {
           <div className="my-auto py-6">
             <h1 className="font-serif text-4xl sm:text-5xl md:text-5xl lg:text-[4.25rem] leading-[1.15] text-brand-dark font-normal mb-8 max-w-[660px]">
               Anxiety therapy for adults who are ready to feel{" "}
-              <span className="font-script text-5xl md:text-6xl lg:text-[5rem] text-brand-teal align-middle -ml-1 inline-block">
+              <span className="font-script text-5xl md:text-6xl lg:text-[5rem] text-brand-teal align-middle ml-[-1%] inline-block">
                 at ease.
               </span>
             </h1>
