@@ -1,5 +1,6 @@
 import { Cormorant_Garamond, Montserrat, Alex_Brush } from "next/font/google";
 import "./globals.css";
+import SmoothScrollProvider from "../components/SmoothScrollProvider";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -29,9 +30,11 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${cormorant.variable} ${montserrat.variable} ${alexBrush.variable} scroll-smooth`}
+      className={`${cormorant.variable} ${montserrat.variable} ${alexBrush.variable}`}
     >
-      <body className="min-h-screen flex flex-col">{children}</body>
+      <body className="min-h-screen flex flex-col">
+        <SmoothScrollProvider>{children}</SmoothScrollProvider>
+      </body>
     </html>
   );
 }
