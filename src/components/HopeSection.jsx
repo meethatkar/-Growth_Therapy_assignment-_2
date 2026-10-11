@@ -1,5 +1,6 @@
+import ScrollRevealText from "@/animations/ScrollRevealText";
+import ParallaxScrollEffect from "@/animations/ParallaxScrollEffect";
 import Image from "next/image";
-import ScrollRevealText from "./ScrollRevealText";
 
 const HopeSection = () => {
   return (
@@ -44,14 +45,14 @@ const HopeSection = () => {
         </div>
 
         {/* Right Image Content */}
-        <div className="w-full md:w-[30%] h-[50vh] md:h-[78vh] relative my-auto">
+        <ParallaxScrollEffect className="w-full md:w-[30%] h-[50vh] md:h-[78vh] my-auto">
           <Image
             src="/images/office1.jpeg"
             alt="Dr. Maya Reynolds therapy office in Santa Monica"
             fill
             className="object-cover object-center"
           />
-        </div>
+        </ParallaxScrollEffect>
       </div>
     </section>
   );

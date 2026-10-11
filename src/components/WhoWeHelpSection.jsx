@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { helpData } from "../data/helpData";
+import ParallaxScrollEffect from "@/animations/ParallaxScrollEffect";
 
 const WhoWeHelpSection = () => {
   return (
@@ -15,14 +16,17 @@ const WhoWeHelpSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 md:w-11/12 ml-auto">
           {helpData.map((item, index) => (
             <div key={index} className="flex flex-col">
-              <div className="w-full aspect-square relative mb-8">
+              <ParallaxScrollEffect
+                className="w-full aspect-square mb-8"
+                speed={0.15 + index * 0.05}
+              >
                 <Image
                   src={item.image}
                   alt={item.title}
                   fill
                   className="object-cover"
                 />
-              </div>
+              </ParallaxScrollEffect>
               <h3 className="font-serif text-3xl font-normal text-brand-dark mb-4">
                 {item.title}
               </h3>

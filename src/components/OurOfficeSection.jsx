@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ParallaxScrollEffect from "@/animations/ParallaxScrollEffect";
 
 const OurOfficeSection = () => {
   return (
@@ -18,14 +19,17 @@ const OurOfficeSection = () => {
 
         <div className="flex flex-col md:flex-row gap-12 lg:gap-16">
           <div className="w-full md:w-1/2 flex flex-col group">
-            <div className="w-full h-[40vh] md:h-[50vh] lg:h-[55vh] relative overflow-hidden mb-8">
+            <ParallaxScrollEffect
+              className="w-full h-[40vh] md:h-[50vh] lg:h-[55vh] mb-8"
+              speed={0.18}
+            >
               <Image
                 src="/images/office1.jpeg"
                 alt="Comfortable therapy office seating in Santa Monica"
                 fill
-                className="object-cover object-center transition-transform duration-[1000ms] ease-out group-hover:scale-105"
+                className="object-cover object-center"
               />
-            </div>
+            </ParallaxScrollEffect>
             <h3 className="font-serif text-[1.6rem] md:text-[2rem] font-normal text-brand-dark mb-4">
               A Grounding Environment
             </h3>
@@ -35,14 +39,17 @@ const OurOfficeSection = () => {
           </div>
 
           <div className="w-full md:w-1/2 flex flex-col group">
-            <div className="w-full h-[40vh] md:h-[50vh] lg:h-[55vh] relative overflow-hidden mb-8 md:mt-16">
+            <ParallaxScrollEffect
+              className="w-full h-[40vh] md:h-[50vh] lg:h-[55vh] mb-8 md:mt-16"
+              speed={0.24}
+            >
               <Image
                 src="/images/office2.jpeg"
                 alt="Therapy office interior space"
                 fill
-                className="object-cover object-center transition-transform duration-[1000ms] ease-out group-hover:scale-105"
+                className="object-cover object-center"
               />
-            </div>
+            </ParallaxScrollEffect>
             <h3 className="font-serif text-[1.6rem] md:text-[2rem] font-normal text-brand-dark mb-4">
               A Safe, Private Space
             </h3>
