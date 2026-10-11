@@ -1,18 +1,22 @@
 import Image from "next/image";
+import ParallaxScrollEffect from "@/animations/ParallaxScrollEffect";
 
 const ScheduleAppointmentSection = () => {
   return (
     <section className="w-full bg-[#FAF9F5] flex justify-center overflow-hidden">
       <div className="max-w-[1900px] w-full flex flex-col lg:flex-row items-center justify-between mx-auto py-16 md:py-24 lg:py-32">
         {/* Left Image */}
-        <div className="hidden lg:block w-[12%] xl:w-[14%] h-[40vh] lg:h-[45vh] relative self-end">
+        <ParallaxScrollEffect
+          className="hidden lg:block w-[12%] xl:w-[14%] h-[40vh] lg:h-[45vh] self-end"
+          speed={0.25}
+        >
           <Image
             src="/images/office1.jpeg"
             alt="Santa Monica therapy office detail"
             fill
             className="object-cover object-left"
           />
-        </div>
+        </ParallaxScrollEffect>
 
         {/* Text Content */}
         <div className="w-full lg:w-[46%] flex flex-col justify-center px-8 md:px-16 lg:px-0 lg:pl-10 xl:pl-16 py-12 lg:py-0">
@@ -57,14 +61,17 @@ const ScheduleAppointmentSection = () => {
         </div>
 
         {/* Right Image */}
-        <div className="w-full lg:w-[36%] xl:w-[38%] h-[50vh] lg:h-[75vh] relative mt-12 lg:mt-0">
+        <ParallaxScrollEffect
+          className="w-full lg:w-[36%] xl:w-[38%] h-[50vh] lg:h-[75vh] mt-12 lg:mt-0"
+          speed={0.18}
+        >
           <Image
             src="/images/Dr. Maya Reynolds.png"
             alt="Dr. Maya Reynolds, PsyD — anxiety and trauma therapist in Santa Monica, CA"
             fill
             className="object-cover object-center"
           />
-        </div>
+        </ParallaxScrollEffect>
       </div>
     </section>
   );

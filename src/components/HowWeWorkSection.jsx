@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ParallaxScrollEffect from "@/animations/ParallaxScrollEffect";
 
 const HowWeWorkSection = () => {
   return (
@@ -56,14 +57,17 @@ const HowWeWorkSection = () => {
         </div>
 
         {/* Right Image */}
-        <div className="w-full md:w-[30%] h-[50vh] md:h-[80vh] my-auto relative">
+        <ParallaxScrollEffect
+          className="w-full md:w-[30%] h-[50vh] md:h-[80vh] my-auto"
+          speed={0.2}
+        >
           <Image
             src="/images/Dr. Maya Reynolds.png"
             alt="Dr. Maya Reynolds, licensed psychologist in Santa Monica"
             fill
             className="object-cover object-center"
           />
-        </div>
+        </ParallaxScrollEffect>
       </div>
     </section>
   );

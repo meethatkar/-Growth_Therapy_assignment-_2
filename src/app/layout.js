@@ -1,6 +1,6 @@
 import { Cormorant_Garamond, Montserrat, Alex_Brush } from "next/font/google";
 import "./globals.css";
-import SmoothScrollProvider from "../components/SmoothScrollProvider";
+import SmoothScrollProvider from "../animations/SmoothScrollProvider";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -22,8 +22,10 @@ const alexBrush = Alex_Brush({
 });
 
 export const metadata = {
-  title: "Dr. Maya Reynolds, PsyD | Anxiety & Trauma Therapist in Santa Monica, CA",
-  description: "Licensed clinical psychologist in Santa Monica offering therapy for anxiety, trauma, burnout, and perfectionism. In-person & telehealth sessions across California.",
+  title:
+    "Dr. Maya Reynolds, PsyD | Anxiety & Trauma Therapist in Santa Monica, CA",
+  description:
+    "Licensed clinical psychologist in Santa Monica offering therapy for anxiety, trauma, burnout, and perfectionism. In-person & telehealth sessions across California.",
 };
 
 export default function RootLayout({ children }) {

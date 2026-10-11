@@ -1,12 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
+import ParallaxScrollEffect from "@/animations/ParallaxScrollEffect";
 
 const HeroSection = () => {
   return (
     <section className="w-full bg-brand-bg flex justify-center">
       <div className="max-w-[1900px] w-full px-8 lg:px-14 pt-8 pb-20 flex flex-col md:flex-row relative overflow-hidden md:min-h-screen mx-auto">
         {/* Left side Image */}
-        <div className="w-full md:w-[38%] h-[78vh] relative z-10">
+        <ParallaxScrollEffect
+          className="w-full md:w-[38%] h-[78vh] z-10"
+          speed={0.15}
+        >
           <Image
             src="/images/Dr. Maya Reynolds.png"
             alt="Dr. Maya Reynolds, PsyD — Anxiety & Trauma Therapist in Santa Monica"
@@ -14,7 +18,7 @@ const HeroSection = () => {
             priority
             className="object-cover object-top"
           />
-        </div>
+        </ParallaxScrollEffect>
 
         {/* Right side Content */}
         <div className="w-full md:w-[55%] lg:w-[50%] h-auto md:h-[78vh] flex flex-col justify-between pl-0 md:pl-12 lg:pl-16 pt-12 md:pt-0 z-10 max-w-2xl">
@@ -49,14 +53,17 @@ const HeroSection = () => {
         </div>
 
         {/* Right edge decorative image (partial) */}
-        <div className="hidden md:block absolute right-0 top-[41%] w-[10%] h-[40vh] opacity-70 z-0">
+        <ParallaxScrollEffect
+          className="hidden md:block absolute right-0 top-[41%] w-[10%] h-[40vh] opacity-70 z-0"
+          speed={0.25}
+        >
           <Image
             src="/images/office1.jpeg"
             alt="Therapy office background"
             fill
             className="object-cover object-left"
           />
-        </div>
+        </ParallaxScrollEffect>
       </div>
     </section>
   );

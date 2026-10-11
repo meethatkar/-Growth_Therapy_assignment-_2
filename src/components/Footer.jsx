@@ -18,8 +18,9 @@ const Footer = () => {
           </Link>
           <p className="text-[1rem] leading-relaxed text-brand-gray max-w-md">
             Therapy for anxiety, trauma, and burnout in Santa Monica, CA.
-            In-person sessions at my quiet office in Santa Monica, and
-            secure telehealth for clients across California—whatever works best for you.
+            In-person sessions at my quiet office in Santa Monica, and secure
+            telehealth for clients across California—whatever works best for
+            you.
           </p>
         </div>
 
@@ -93,9 +94,10 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="w-full bg-brand-teal/70 py-4 px-8 md:px-16 lg:px-24">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row text-[0.7rem] font-light text-white opacity-90">
+        <div className="max-w-[1900px] mx-auto flex flex-col md:flex-row text-[0.7rem] font-light text-white opacity-90">
           <p>
-            © 2025 Dr. Maya Reynolds, PsyD · Terms | Privacy Policy | Santa Monica, CA
+            © 2025 Dr. Maya Reynolds, PsyD · Terms | Privacy Policy | Santa
+            Monica, CA
           </p>
         </div>
       </div>
